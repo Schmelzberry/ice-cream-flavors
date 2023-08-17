@@ -1,0 +1,13 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+img {
+  width: auto;
+  height: 150px;
+  border-radius: 5px;
+}

@@ -1,7 +1,7 @@
 // Business Logic
 let flavor;
 function renderFlava(flavor) {
-  return flavor.split(" ");
+  return flavor.split(", ");
   
 }
 
@@ -16,6 +16,7 @@ function handleFormSubmission(event) {
   const ul = document.querySelector("ul#cream")
   const li = document.createElement("li")
   for (let i =0; i < testArr.length; i++) {
+    document.getElementById("results").removeAttribute("class");
       li.append(testArr)
       ul.append(li);
       console.log(passage);
