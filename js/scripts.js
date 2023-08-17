@@ -1,5 +1,5 @@
-function renderFlava(string) {
-  return string;
+function renderFlava(flavor) {
+  return flavor;
 }
 
 
