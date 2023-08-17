@@ -15,9 +15,9 @@ function handleFormSubmission(event) {
   const testArr = renderFlava(passage);
   const ul = document.querySelector("ul#cream")
   const li = document.createElement("li")
-  const appendLi = ul.append(li);
   for (let i =0; i < testArr.length; i++) {
-      appendLi(testArr.split())
+      li.append(testArr)
+      ul.append(li);
       console.log(passage);
   }
 }
