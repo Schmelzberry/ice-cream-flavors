@@ -1,7 +1,7 @@
 function renderFlava(flavor) {
-  return flavor;
+  
+ return flavor.split(" ");
 }
-
 
 
 
