@@ -9,5 +9,7 @@ body {
 img {
   width: auto;
   height: 150px;
+  border:solid aqua;
   border-radius: 5px;
+ 
 }
